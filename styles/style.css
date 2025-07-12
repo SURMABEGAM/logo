@@ -1,0 +1,174 @@
+.header {
+                  background-image: url(../image/Hero-bg.png);
+                  background-size: cover;
+                  background-position: center;
+                  height: 60vh;
+                  margin: 0px;
+                   padding: 0;
+                   width: 100%; 
+                  }
+nav{
+
+                   display: flex;
+                   justify-content: space-between;
+                   align-items: center;
+                   text-align: center;
+                   padding: 20px 30px;
+                   font-size: 30px;
+    
+}
+.cool {
+                  text-align: center;
+                  font-size: 40px;
+                  font-weight: 400;
+                  padding: 10px 20px;
+                  justify-items: center;
+}
+nav h3 span{
+                  color: rgb(127, 47, 185);
+                  font-weight: 400;
+                  font-size:35px ;
+                  
+}
+nav ul li{
+                  list-style: none;
+                  display:inline-flex;
+                  padding-right: 25px;
+
+
+}
+nav ul li a{
+                  text-decoration: none;
+                  font-size: 18px;
+                  color: rgb(141, 71, 254);
+}
+nav ul li a:hover{
+                  color: rgb(67, 0, 108);
+}
+nav button{
+                  background-color: rgb(151, 54, 215);
+                  color: rgb(90, 49, 203);
+                  border: none;
+                  padding-right: 10 20px;
+                  border-radius: 5px;
+                  
+}
+/*button (btn)item */
+.btn.item {
+                  background-color:#4E47FF;
+                  color: rgb(253, 255, 254);
+                  border: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+
+}
+.btn.item:hover {
+                  background-color: rgb(46, 108, 214);
+                  color: rgb(116, 31, 178);
+}
+.button {
+                  background-color: #4E47FF;
+                  color: rgb(253, 255, 254);
+                  border: none;
+                  padding: 20px;
+                  border-radius: 5px;
+                  text-align: center;
+                  margin-left: 500px;
+                  margin-right: 500px;
+                  justify-items: center;
+                  
+}
+.action
+{
+                  display: flex;
+                  gap: 40px;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: row;
+                  padding: 20px;
+                  margin-top: 100px;
+                  margin-bottom: 100px;
+}
+.title {
+                  font-size: 30px;
+                  font-weight: 400;
+                 
+                  color: rgb(0, 0, 0);
+                  padding: 5px;
+}
+.sub-title {
+                  font-size: 10px;
+                  font-weight: 200;
+                  text-align: center;
+                  color: rgba(110, 110, 110, 0.815);
+                  padding: 5px;
+}
+.action-image {
+                  width: 80%;
+                  height: 80%;
+                  border-radius: 25px;
+                  box-shadow: rgba(253, 252, 252, 0.867) 0px 3px 8px;
+}
+.secand{
+ 
+                    display: flex;
+               flex-direction: column;
+                  align-items: center;
+                  border: 1psx olid rgb(232, 89, 89); 
+                  border: none;
+                  margin-top:100px ;
+                 padding: 130px 150px;
+}
+h4 {
+                  font-size: 20px;
+                  font-weight: 600;
+                  color: rgb(75, 39, 254);
+                  padding: 5px;
+}
+.child{
+           display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   text-align: center;
+                   flex-direction: column; 
+                  border: 2px solid rgb(232, 89, 89);
+                  border: none;
+                   border-radius: 10px;
+                 
+}
+.text {
+                  display: flex;
+                  flex-direction:row;
+                  gap: 25px;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 15px;
+                  font-weight: 200;
+                  color: rgba(110, 110, 110, 0.815);
+                  padding: 5px;
+                  
+}
+.footer {
+                  background-color: rgb(46, 108, 214);
+                  color: rgb(253, 255, 254);
+                  padding: 50px;
+                  text-align: center;
+                  font-size: 15px;
+                  font-weight: 200;
+}
+h3 {
+                  font-size: 30px;
+                  font-weight: 600;
+                  color: rgb(181, 78, 245);
+                  padding: 5px;
+}
+p{
+                  font-size: 15px;
+                  font-weight: 200;
+                  color: rgba(251, 245, 245, 0.815);
+                  padding: 5px;
+}
+.footer-contact {
+                  text-align: center;
+                  color:rgb(243, 240, 240) ;
+}
