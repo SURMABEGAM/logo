@@ -1,3 +1,10 @@
+*body{
+           margin:0px auto ;  
+           max-width: 1140;
+                
+}
+
+
 .header {
                   background-image: url(../image/Hero-bg.png);
                   background-size: cover;
@@ -25,7 +32,7 @@ nav{
                   justify-items: center;
 }
 nav h3 span{
-                  color: rgb(127, 47, 185);
+                  color: rgb(117, 49, 255);
                   font-weight: 400;
                   font-size:35px ;
                   
@@ -116,38 +123,105 @@ nav button{
                   align-items: center;
                   border: 1psx olid rgb(232, 89, 89); 
                   border: none;
-                  margin-top:100px ;
-                 padding: 130px 150px;
+                  margin-top:50px ;
+                 padding: 30px 50px;
 }
 h4 {
-                  font-size: 20px;
+                  
                   font-weight: 600;
                   color: rgb(75, 39, 254);
                   padding: 5px;
 }
-.child{
-           display: flex;
-                   justify-content: center;
-                   align-items: center;
-                   text-align: center;
-                   flex-direction: column; 
-                  border: 2px solid rgb(232, 89, 89);
-                  border: none;
-                   border-radius: 10px;
+.Focus {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction: row;
+                  
+                  
+}
+.child {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 10px;
+                  border-radius: 10px;
                  
 }
+                 
+                 
+
 .text {
+                 
+                 
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 10px;
+                  font-weight: 200;
+                  color: rgba(29, 27, 27, 0.982);
+                  
+                  
+}
+.secand-text {
+                  
                   display: flex;
-                  flex-direction:row;
+                  flex-direction: row;
                   gap: 25px;
                   justify-content: center;
                   align-items: center;
-                  font-size: 15px;
+                  text-align: center;
+                  margin-bottom: 80px;
+                  border: 1px saddlebrown;
+                  box-shadow: 0px 05px 05px 10px rgb(231, 231, 231) ;
+}
+.icon             {
+                  display: flex;
+                  flex-direction: row;
+                  gap: 10px;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  padding: 10px;
+}
+.star {
+                  width: 30px;
+                  height: 30px;
+}
+.icon-text {
+                 
+                  text-align: center;
+                  font-size: 10px;
                   font-weight: 200;
-                  color: rgba(110, 110, 110, 0.815);
-                  padding: 5px;
+}
+.third {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction: column; 
+                  padding: 50px;
+}
+.last{
+                    display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction:row;
+}
+.last-text{
+                  font-size: 45px;
+}
+.last-from{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction:column;
                   
 }
+
 .footer {
                   background-color: rgb(46, 108, 214);
                   color: rgb(253, 255, 254);
@@ -165,17 +239,10 @@ h3 {
 p{
                   font-size: 15px;
                   font-weight: 200;
-                  color: rgba(251, 245, 245, 0.815);
+                  color: rgba(81, 73, 73, 0.989);
                   padding: 5px;
 }
-.third {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  text-align: center;
-                  flex-direction: column; 
-                  padding: 50px;
-}
+
 .footer-contact {
                   text-align: center;
                   color:rgb(243, 240, 240) ;
